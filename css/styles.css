@@ -1,0 +1,236 @@
+/* Universal Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: hsl(0, 0%, 90%);
+  background-color: black;
+  text-align: center;
+}
+
+/*Offsets the page content due to the header*/
+#main { 
+  position: relative;
+  top: 5.975rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-decoration-color: hsl(57, 100%, 50%);
+  padding: 1rem 0.8rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 1rem 0.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  background-color: black;
+}
+
+header .flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem 0.8rem 0.8rem;
+}
+
+header .logo {
+  max-height: 70px;
+}
+
+header .logo:hover {
+  cursor: pointer;
+  max-height: 70px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-right: 2rem;
+}
+
+nav a {
+  color: hsl(0, 0%, 90%);
+}
+
+header .mobile {
+  display: none;
+}
+
+/* Feature Section */
+#feature {
+  width: 100%;
+  height: 32rem;
+  background-image: url('../images/mining-gaf5497681_1920.jpg');
+  background-size: cover;
+  background-position: left top;
+}
+
+#feature .flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#feature .content {
+  width: 70%;
+}
+
+#feature h2 {
+  font-size: 1.2rem;
+}
+
+/* Product Section */
+#products {
+  height: 32rem;
+  background-color: hsl(0, 0%, 70%);
+  padding: 2rem 1.5rem;
+}
+
+#products h2 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+#products .flex-container {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#products .card {
+  flex: 1 1 auto;
+  justify-content: center;
+  background-color: white;
+  height: 20rem;
+  margin: 2rem 1.5rem;
+  padding: 1.25rem 0.5rem;
+
+}
+
+#products .card .image-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#products .image-container img {
+  width: 10rem;
+}
+
+#products .card h4 {
+  color: hsl(0, 0%, 15%);
+}
+
+#products .card p {
+  width: 90%;
+  margin: 0 auto;
+  color: hsl(0, 0%, 15%);
+}
+
+/* History Section */
+#history {
+  padding: 2rem 1.5rem;
+  height: 40rem;
+}
+
+#history img {
+  margin: 1rem;
+  width: 40%;
+  max-height: 369px;
+  max-width: 446px;
+}
+
+#history h2 {
+  color: hsl(57, 100%, 50%);
+}
+
+#history p {
+  margin: 0 auto;
+  width: 75%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/* About Section */
+#about {
+  padding: 1.5rem 3rem;
+  height: 47rem;
+}
+
+#about .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#about .profiles {
+  margin: 2rem 1rem;
+}
+
+#about .image-container img {
+  width: 9.375rem;
+  border-radius: 50%;
+  border: 2px solid hsl(57, 100%, 50%);
+  margin-bottom: 0.7rem;
+}
+
+#about .profiles p {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+
+/* Footer Section */
+footer {
+  height: 31.25rem;
+  text-align: left;
+}
+
+footer .yellow-bar {
+  background-color: hsl(57, 100%, 50%);
+  height: 0.4rem;
+}
+
+footer .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 2rem 2rem;
+}
+
+footer .flex-item {
+  flex: 1 1 auto;
+  max-width: 12rem;
+  margin: 1rem 1rem;
+  
+}
+
+footer .content a {
+  color: hsl(0, 0%, 90%);
+}
+
+footer .logo {
+  max-height: 40px;
+}
